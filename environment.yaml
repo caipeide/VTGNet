@@ -1,0 +1,29 @@
+name: vtgnet
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy=1.18.5=py37ha1c710e_0
+  - numpy-base=1.18.5=py37hde5b4d6_0
+  - pandas=1.0.4=py37h0573a6f_0
+  - pillow=7.2.0=py37hb39fc2d_0
+  - pip=20.1.1=py37_1
+  - pyparsing=2.4.7=py_0
+  - python=3.7.7=hcff3b4d_5
+  - python-dateutil=2.8.1=py_0
+  - python_abi=3.7=1_cp37m
+  - pytorch=1.5.1=py3.7_cuda10.2.89_cudnn7.6.5_0
+  - pyyaml=5.3.1=py37h7b6447c_1
+  - scikit-image=0.17.2=py37h0da4684_1
+  - scipy=1.5.0=py37h0b6359f_0
+  - setuptools=49.2.0=py37_0
+  - tensorboard=2.2.1=pyh532a8cf_0
+  - tensorboard-plugin-wit=1.6.0=py_0
+  - torchvision=0.6.1=py37_cu102
+  - tornado=6.0.4=py37h7b6447c_1
+  - yaml=0.2.5=h7b6447c_0
+  
+  - pip:
+    - opencv-python==4.3.0.36
+
