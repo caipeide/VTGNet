@@ -52,3 +52,14 @@ python train.py --direction 2  --load_weights True --batch_size 15
 --direction {0,1,2}  *0: keep straight; 1: turn right; 2: turn left*
 
 --load_weights {True,False} *load pre-trained weights on Robotcar or not*
+
+## Citation
+```
+@article{Cai2020VTGNetAV,
+  title={VTGNet: A Vision-based Trajectory Generation Network for Autonomous Vehicles in Urban Environments},
+  author={Peide Cai and Yuxiang Sun and H. Wang and M. Liu},
+  journal={IEEE Transactions on Intelligent Vehicles},
+  year={2020},
+  doi={10.1109/TIV.2020.3033878}
+}
+```
